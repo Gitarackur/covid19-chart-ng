@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html,
+body {
+	background: #f2f2f2;
+	color: #1c1c1c;
+}
+
+.green {
+	color: #fff;
+}
+
+
+section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+section .heading {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+section .info-wrapper {
+	padding: 10px;
+
+}
+
+section .info-wrapper h1 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #1c1c1c;
+}
+
+section .info-wrapper h1 span {
+	font-size: 14px;
+	font-weight: 600;
+	color: #1c1c1c;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+footer p a {
+	color: #1c1c1c;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+footer p i {
+	color: #f00;
+}
