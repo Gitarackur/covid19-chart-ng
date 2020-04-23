@@ -1,0 +1,131 @@
+html,
+body {
+	background: #faf8f8;
+	color: rgb(32, 31, 31);
+	font-weight: 400;
+}
+
+.logo-container {
+	margin-top: 9px;
+	display: flex;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.official-logo {
+	display: flex;
+	margin-right: auto;
+}
+
+[alt="covid-19-virus"] {
+	width: 2rem;
+}
+
+.logo-me {
+	margin-left: 6px;
+	font-size: larger;
+	color: rgb(97, 151, 204);
+}
+
+.logo-seeks {
+	font-size: larger;
+	color: rgb(160, 228, 70);
+}
+
+#Home {
+	display: flex;
+	padding-top: 0rem !important;
+	box-shadow: none !important;
+}
+
+[alt="Home-icon"] {
+	width: 2rem;
+	margin-top: 0.5rem;
+}
+
+.container {
+	text-align: center;
+	margin-top: 8rem !important;
+}
+
+[alt="medical-mask"] {
+	display: none;
+}
+
+.btn {
+	margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+	[alt="covid-19-virus"] {
+		width: 4rem;
+	}
+
+	.logo-me {
+		font-size: 32px;
+		margin-top: 5px;
+	}
+
+	.logo-seeks {
+		font-size: 32px;
+		margin-top: 5px;
+	}
+
+	[alt="Home-icon"] {
+		width: 4rem;
+	}
+
+	.container {
+		display: flex;
+	}
+
+	[alt="medical-mask"] {
+		display: block;
+		width: 300px;
+		margin-left: -2rem;
+	}
+
+	.vertical-line {
+		border-left: 6px solid green;
+		height: 250px;
+		margin-top: 2.3rem;
+		margin-right: 2rem;
+	}
+
+	.main-body {
+		margin-top: 3rem;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.btn {
+		margin-top: 13px;
+	}
+
+}
+
+@media only screen and (min-width: 993px) {
+	.main-body {
+		margin-top: 3.5rem;
+	}
+
+	p {
+		font-size: 24px;
+		line-height: 34px;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+	.main-body {
+		margin-top: 4rem;
+	}
+
+	p{
+		font-size: 27px;
+		line-height: 34px;
+	}
+}
